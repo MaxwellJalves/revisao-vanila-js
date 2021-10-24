@@ -1,0 +1,76 @@
+body,
+html {
+    margin: 0;
+    padding: 0px;
+    background-color: rgb(104, 19, 189);
+    font-family: tahoma;
+    font-weight: 500px;
+}
+
+header {
+    display: flex;
+
+    background-color: rgba(0, 0, 0, 0.767);
+    color: white;
+
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+header span {
+    color: orange;
+}
+.container {
+    display: flex;
+
+    width: 100%;
+    height: auto;
+    background-color: rgb(163, 163, 163);
+}
+#promocao {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    width: 80%;
+}
+#promocao li{
+    list-style: none;
+    font-size: 12px;
+    font-family: tahoma;
+    font-weight: 500;
+}
+#promocao li:hover{
+    background: rgba(0, 0, 0, 0.767);
+    height: 25px;
+    border: 0.5px solid rgb(0, 243, 0);
+
+    width: 100%;
+    color: white;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section {
+    padding-top: 10%;
+}
+
+section button {
+    box-sizing: border-box;
+    width: 100px;
+    height: 42px;
+    background: rgba(0, 0, 0, 0.767);
+    color: aliceblue;
+    border: none;
+    border-radius: 15px;
+
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+section button:hover {
+    background-color: rgba(60, 250, 7, 0.589);
+    transition: 1s;
+}

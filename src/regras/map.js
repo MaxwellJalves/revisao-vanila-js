@@ -18,10 +18,10 @@ const produtos = [
     { descricao: 'CAMARÃO - 700KG', preco: 57.5 },
 ]
 
-let n = produtos.map((produto) => {
+let filtro = produtos.map((produto) => {
     if (produto.preco < 25) {
         return {
-            nome: produto.descricao,
+            descricao: produto.descricao,
             preco: Number.parseFloat(
                 produto.preco - (produto.preco * 20) / 100
             ).toFixed(2),
@@ -30,4 +30,15 @@ let n = produtos.map((produto) => {
     return produto
 })
 
-n.forEach((p) => console.log(p))
+const obterItensPromocionais = ()=>{
+    const elementoHTML = document.querySelector("#promocao")
+    filtro.map(value => value)
+    .forEach(({descricao,preco}) =>{
+         elementoHTML.innerHTML += `
+        <li>${descricao} R$ ${preco}</li>
+        
+        
+        `
+    })
+}
+
