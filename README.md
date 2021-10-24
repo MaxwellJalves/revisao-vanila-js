@@ -8,3 +8,6 @@ Revisão -  Modelo de Objeto de Documento(DOM) e implementação de rotinas com 
 -   [x] criar botão no html
 -   [x] chamar função através do evento de onClick
 
+##  Atividade 1
+-   Uma rede de supermercados criou uma nova promoção onde  os produtos cuja o preço seja inferior a R$ 25,00 tenham descontos de 20 %. exiba para o consumidor final a lista de produtos com o preço promocional.
+
