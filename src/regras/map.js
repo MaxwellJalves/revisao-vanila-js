@@ -1,0 +1,1 @@
+const exibirAlerta = () => alert('Iniciando rotina de estudo.')
