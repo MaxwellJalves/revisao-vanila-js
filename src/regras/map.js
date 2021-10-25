@@ -29,13 +29,17 @@ let filtro = produtos.map((produto) => {
     }
     return produto
 })
-
+function imprimir(value){
+    console.log(value)
+}
 const obterItensPromocionais = ()=>{
     const elementoHTML = document.querySelector("#promocao")
+
+  
     filtro.map(value => value)
     .forEach(({descricao,preco}) =>{
          elementoHTML.innerHTML += `
-        <li>${descricao} R$ ${preco}</li>
+        <li type="text" onClick="imprimir(this)">${descricao} R$ ${preco}</li>
         
         
         `

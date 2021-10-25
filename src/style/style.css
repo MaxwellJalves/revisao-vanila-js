@@ -74,3 +74,41 @@ section button:hover {
     background-color: rgba(60, 250, 7, 0.589);
     transition: 1s;
 }
+
+.pontuacao{
+    width: 80px;
+    height: 80px;
+
+}
+
+#reduce{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.pontos{
+    display: flex;
+    justify-content: center;
+    border-radius: 2px;
+    align-items: center;
+    width: 130px;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.767);
+    color:white;
+    margin-left: 20px;
+    
+}
+
+.pontos h2{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+input{
+    box-sizing: border-box;
+    padding-left: 20px;
+    height: 40px;
+    border-radius: 2px;
+    border: none;
+    margin-bottom: 20px;
+}
