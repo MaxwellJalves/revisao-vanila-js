@@ -1,21 +1,30 @@
-body,
-html {
-    margin: 0;
-    padding: 0px;
-    background-color: rgb(104, 19, 189);
-    font-family: tahoma;
-    font-weight: 500px;
-}
-
-header {
+body{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    min-height: 100vh;
+font-family:  'Zen Kaku Gothic Antique';}
 
-    background-color: rgba(0, 0, 0, 0.767);
-    color: white;
+header{
+    display: flex;
+    width: 100vw;
+    height: 40px;
+    background: blue;
+    margin-bottom: 40px;
+    padding-left: 24px;
 
-    justify-content: center;
-    margin-bottom: 10px;
+    align-items: center;
 }
+header nav a{
+    text-decoration: none;
+    color: orange;
+    font-family: Tahoma;
+    font-size: 16px;
+    font-weight: 700px;
+    padding-left: 20px;
+ 
+ }
 
 header span {
     color: orange;
@@ -23,9 +32,9 @@ header span {
 .container {
     display: flex;
 
-    width: 100%;
+    width: 75vw;
     height: auto;
-    background-color: rgb(163, 163, 163);
+    background-color: rgb(218, 218, 218);
 }
 #promocao {
     display: flex;
@@ -44,7 +53,7 @@ header span {
     height: 25px;
     border: 0.5px solid rgb(0, 243, 0);
 
-    width: 100%;
+    width: 70vw;
     color: white;
    
     display: flex;
@@ -58,7 +67,7 @@ section {
 
 section button {
     box-sizing: border-box;
-    width: 100px;
+    width: 20vw;
     height: 42px;
     background: rgba(0, 0, 0, 0.767);
     color: aliceblue;
@@ -108,7 +117,12 @@ input{
     box-sizing: border-box;
     padding-left: 20px;
     height: 40px;
-    border-radius: 2px;
-    border: none;
+    border-radius: 7px;
+    width: 50vw;
+    border: 1px solid blue;
     margin-bottom: 20px;
+
+    font-style: normal;
+  font-family:  'Arial Narrow Bold', sans-serif;
+    font-weight: 500px;
 }
