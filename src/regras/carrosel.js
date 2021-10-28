@@ -11,4 +11,10 @@ function iniciarAnimacaoCarrosel() {
     imagemId.style.transform = `translateX(${-index * 250}px)`
 }
 
-setInterval(iniciarAnimacaoCarrosel, 1000)
+setInterval(iniciarAnimacaoCarrosel, 1800)
+
+
+const exibirImagemSelecionada = (value) => {
+    selecao.style.transitionDuration = '1s';
+    selecao.innerHTML = listaDeImagens[value].outerHTML.toString()
+}
