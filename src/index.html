@@ -1,40 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Revisão DOM - JSVanila</title>
-    <link rel="stylesheet" href="./style/style.css">
-</head>
-<body>
-    <header>
-        <h2>DOM - <span>VanilaJS</span></h2>
-    </header>
-    <div class="container">
-        <div id="promocao">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Revisão DOM - JSVanila</title>
+        <link rel="stylesheet" href="./style/style.css" />
+    </head>
 
+    <body>
+        <header>
+            <nav>
+                <a href="/pages/carrosel.html">Carrosel JS Vanila </a>
+            </nav>
+        </header>
+        <div class="container">
+            <div id="promocao"></div>
         </div>
-    </div>
-    <section>
-        <button onclick="exibirAlerta()">Exibir alerta</button>
-        <button onclick="obterItensPromocionais()">Promoção</button>
-    </section>
-    <section id="reduce">
-        <label for="fidelidade">Consultar Pontos fidelidades</label>
-        <div>
-            <input type="text" placeholder=" Informe seu nome" id='cliente'>
-            <button type="button" onclick="pesquisar()">Pesquisar</button>
-        </div>
-        <div class="pontuacao">
-            <div class="pontos">
- 
+        <section>
+            <button onclick="exibirAlerta()">Exibir alerta</button>
+            <button onclick="obterItensPromocionais()">Promoção</button>
+        </section>
+        <section id="reduce">
+            <label for="fidelidade">Consultar Pontos fidelidades</label>
+            <div>
+                <input
+                    type="text"
+                    placeholder=" Informe seu nome"
+                    id="cliente"
+                />
+                <button type="button" onclick="pesquisar()">Pesquisar</button>
             </div>
-        </div>
+            <div class="pontuacao">
+                <div class="pontos"></div>
+            </div>
+        </section>
 
-    </section>
-
-    <script src="/regras/map.js"></script>
-    <script src="/regras/reduce.js"></script>
-</body>
+        <script src="/regras/map.js"></script>
+        <script src="/regras/reduce.js"></script>
+    </body>
 </html>
