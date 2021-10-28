@@ -53,3 +53,61 @@ header nav a{
     width: 250px;
     border-radius: 9px;
 }
+
+section{
+    display: flex;
+    align-items: flex-end;
+    padding: 30px 0px;
+    height: 25px;
+    margin: 20px 0px;
+
+}
+
+section button{
+    background-color:  rgb(134, 134, 134);
+    margin-right: 5px;
+    border: none;
+    padding: 0px;
+    border-radius: 20px;
+    width: 8px;
+    height: 10px;
+}
+
+section button:hover{
+    background-color: rgb(12, 109, 85);
+    border: none;
+    height: 15px;
+    width: 9px;
+    border-radius: 20px;
+    transition-duration: 1s;
+}
+section button:hover{
+    background-color: rgb(12, 109, 85);
+    border: none;
+    height: 15px;
+    width: 9px;
+    border-radius: 20px;
+    transition-duration: 1s;
+}
+
+#selecionado{
+    width: 250px;
+    height: 250px;
+    background: rgb(145, 145, 145);
+    border-radius: 16px;
+
+}
+
+#selecionado img{
+    transition: transform 1s ease-out;
+    border-radius: 16px;
+    image-rendering: crisp-edges;
+    width: 250px;
+    height: 250px;
+}
+
+p{
+    width: 500px;
+    height: auto;
+    text-align: justify;
+}
