@@ -23,6 +23,9 @@ Revisão -  Modelo de Objeto de Documento(DOM) e implementação de rotinas com 
 - [x] Implementar nova funcionalidade para que quando o usuario click em uma das opções seja exibida a imagem na posicao selecionada 
 - [x] criar função que exiba apenas  a opção selecionada pelo usuario sem afetar o carrosel automatico  
 ![image](https://user-images.githubusercontent.com/65586669/139188103-955fc52c-a9b2-432d-a77b-0a459a0d46b3.png)
+![atividade finalizada](https://user-images.githubusercontent.com/65586669/139190113-6cc9f7dc-697d-4d5e-ae16-cf4e0831fc97.gif)
 
 - [x] Ajustado a navegação do index.html 
+- Caso não utilize a extensão do live server é necessario que a rota esteja apontando para o caminho local correto 
+- -  < a href="../src/pages/carrosel.html">Carrosel JS Vanila < /a>  }
 - [ ] pendente avançar com a implementação dos pontos fidelidades  consumindo uma api local. 
